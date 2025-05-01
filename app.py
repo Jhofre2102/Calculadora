@@ -25,7 +25,7 @@ def ruta_division_piso():
     numero2=request.args.get("numero2",type=float)
     if numero1 is None or numero2 is None:
         return "Faltan datos"
-    return f"El resultado de la suma es {sumar(numero1,numero2)}"
+    return f"El resultado de la division piso es {division_piso(numero1,numero2)}"
 
 
 
